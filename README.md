@@ -25,6 +25,9 @@ npm install --save-dev babel-preset-stage-2
             ["stage-2"]
         ]
     }
+    
+# install vue-router
+npm install --save vue-router
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
