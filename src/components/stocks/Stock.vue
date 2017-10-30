@@ -33,8 +33,7 @@
         props: ['stock'],
         data(){
             return {
-                quantity: 0,
-                buyIsDisabled: true
+                quantity: 0
             }
         },
         computed: {
