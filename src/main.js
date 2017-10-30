@@ -8,6 +8,12 @@ import store from './store/store';
 //先让Vue知道
 Vue.use(VueRouter);
 
+//过滤器
+
+Vue.filter('currency', (value) => {
+    return '¥' + value.toLocaleString();
+});
+
 //再配置
 const router = new VueRouter({
     mode: 'history',
