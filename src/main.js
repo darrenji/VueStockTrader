@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueResource from 'vue-resource'
 
 import VueRouter from 'vue-router'
 import { routes } from './routes'
@@ -7,6 +8,9 @@ import store from './store/store';
 
 //先让Vue知道
 Vue.use(VueRouter);
+Vue.use(VueResource);
+
+Vue.http.options.root = 'your api root';
 
 //过滤器
 
